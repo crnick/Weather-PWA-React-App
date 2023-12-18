@@ -24,7 +24,7 @@ this.addEventListener("fetch", (event) => {
 //active service worker
 this.addEventListener("activate", (event) => {
   //we are going to remove caches
-  const cacheWhitelist = [];
+  const cacheWhitelist = []; //array to store only single version
   cacheWhitelist.push(CACHE_NAME); // what we want to keep
   event.waitUntil(
     caches.keys().then((cacheNames) =>
