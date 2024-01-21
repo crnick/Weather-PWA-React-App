@@ -4,6 +4,13 @@ This is an example of a simple progressive web app which has the feel and functi
 This also includes another important file which is Manifest.json.
 This contains information that tells how your PWA should appear and function.
 
+# SetUp
+The project provides a search interface through which user is able to query weather related information. 
+
+The ServiceWorker file handles the necessary steps to install, fetch and activate a service worker, by caching files and handling the offline mode. 
+
+The main App.js file handles all the UI related built using React library, while the api folder has the actuall functionality of fetching the weather related information.
+
 # Technologies Used
 HTML5, CSS3, Javascript, React
 
