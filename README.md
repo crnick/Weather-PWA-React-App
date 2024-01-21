@@ -6,3 +6,4 @@ This contains information that tells how your PWA should appear and function.
 
 # Technologies Used
 HTML5, CSS3, Javascript, React
+
