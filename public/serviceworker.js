@@ -1,6 +1,8 @@
 const CACHE_NAME = "version-1"; //storage of browser cache
 const urlsToCache = ["index.html", "offline.html"];
 
+//register -> install -> listen -> active
+
 //listen to installation event of service worker
 this.addEventListener("install", (event) => {
   event.waitUntil(
@@ -9,6 +11,7 @@ this.addEventListener("install", (event) => {
     })
   );
 });
+
 //listen to requests
 this.addEventListener("fetch", (event) => {
   event.respondWith(

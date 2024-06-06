@@ -1,5 +1,5 @@
 import "./App.css";
-import { FetchWeather } from "./api/FetchWeather";
+import FetchWeather  from "./api/FetchWeather";
 import { useState } from "react";
 
 function App() {

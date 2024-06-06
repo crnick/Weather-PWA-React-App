@@ -7,7 +7,7 @@ const FetchWeather = async (query) => {
     params: {
       q: query,
       units: "metric",
-      APPID: API_KEY,
+      APPID: process.env.WEATHER_API_KEY,
     },
   });
   return data;
